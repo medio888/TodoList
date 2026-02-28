@@ -92,7 +92,7 @@ function App() {
             className={currentFilter === "all" ? "active" : ""}
             onClick={() => setCurrentFilter("all")}
           >
-            Все
+            Все:
           </button>
           <button
             className={currentFilter === "active" ? "active" : ""}
